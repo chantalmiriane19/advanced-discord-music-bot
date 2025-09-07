@@ -21,10 +21,11 @@ Clone the repo or download the `.zip`:
 ```bash
 git clone https://github.com/CookyDevJS/advance-discord-music-bot.git
 cd advance-discord-music-bot
+```
 
-**3.** Fill in everything in **`settings/config.js`**
+### 3️⃣ Fill in everything in **`settings/config.js`**
 
-### _Modify - config.js_
+### Modify - **config.js**
 
 ```javascript
 {
@@ -34,9 +35,9 @@ cd advance-discord-music-bot
 }
 ```
 
-### _Modify - .env_
+### Modify - **.env**
 
-_*Rename `.env.example` to `.env.` and configure it*_
+**Rename `.env.example` to `.env.` and configure it**
 
 ```env
 TOKEN=
@@ -45,19 +46,28 @@ PREFIX=
 GUILD_ID=
 ```
 
-**4.** Now Let's Update Node Version. copy and paste in shell **`npm i --save-dev node@latest && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH`**
+### 4️⃣ Now Let's Update Node Version. copy and paste in shell:
+```bash
+npm i --save-dev node@latest && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH
+```
 
-**5️** Install dependencies:
+### 5️⃣ Install dependencies:
 
-**``npm install``**
+```bash
+``npm install``
+```
 
-**6.** now we need to install to additional packages **.** <br/>
+
+### 6️⃣ Now we need to install to additional packages **.** <br/>
 
 1.  `npm install @discordjs/opus` - for better audio quality **.** <br/>
 2.  `npm install zlib-sync@latest` - for WebSocket data compression and inflation **.** <br/>
 3.  `npm install erlpack@latest` - for significantly faster WebSocket **.** <br/>
 
-**7.** start the bot with **`node index.js`**
+### 7️⃣ Start the bot with:
+```
+node index.js
+```
 
 ## 🎧 Music Bot Features
 
