@@ -3,7 +3,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-LTS-green?logo=node.js)
 ![Discord.js](https://img.shields.io/badge/discord.js-v14-blue?logo=discord)
 ![License](https://img.shields.io/badge/License-MIT-yellow?logo=open-source-initiative)
-![Stars](https://img.shields.io/github/stars/yourusername/advance-discord-music-bot?style=social)
+![Stars](https://img.shields.io/github/stars/CookyDevJS/advance-discord-music-bot?style=social)
 
 An **Advanced Music Bot for Discord** with commands, buttons, 24/7 system, auto-resume, and support for more than 700 websites.
 
