@@ -54,7 +54,7 @@ npm i --save-dev node@latest && npm config set prefix=$(pwd)/node_modules/node &
 ### 5️⃣ Install dependencies:
 
 ```bash
-``npm install``
+npm install
 ```
 
 
@@ -83,8 +83,6 @@ node index.js
 - ⚙️ Built with discord.js v14
 
 
-## License
+## 📜 License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-# Thanks For Using Music bot Please Give a Star and please give me credit
