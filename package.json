@@ -1,0 +1,41 @@
+{
+  "name": "advance-discord-music-bot",
+  "version": "1.0.0",
+  "description": "An advance discord music bot with many features.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CookyDevJS/advance-discord-music-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CookyDevJS/advance-discord-music-bot/issues"
+  },
+  "homepage": "https://github.com/CookyDevJS/advance-discord-music-bot#readme",
+  "dependencies": {
+    "@discordjs/voice": "^0.15.0",
+    "@distube/deezer": "^1.0.0",
+    "@distube/soundcloud": "^1.3.0",
+    "@distube/spotify": "^1.5.1",
+    "@distube/yt-dlp": "^1.1.3",
+    "@joshdb/core": "^1.2.7",
+    "@joshdb/mongo": "^1.1.6",
+    "@joshdb/sqlite": "^1.1.9",
+    "cors": "^2.8.5",
+    "discord.js": "^14.8.0",
+    "distube": "^4.0.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "ffmpeg-static": "^5.1.0",
+    "libsodium-wrappers": "^0.7.11",
+    "opusscript": "^0.0.8",
+    "simple-find-lyrics": "^0.0.1",
+    "systeminformation": "^5.17.12",
+    "tweetnacl": "^1.0.3"
+  }
+}
