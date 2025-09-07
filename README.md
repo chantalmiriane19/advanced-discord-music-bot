@@ -9,6 +9,21 @@ An **Advanced Music Bot for Discord** with commands, buttons, 24/7 system, auto-
 
 ---
 
+## 🎧 Music Bot Features
+
+- 🎵 Easy to use
+- 🎶 Supports YouTube, Spotify, SoundCloud and 700+ websites
+- ⚡ Supports Slash Commands and prefix commands
+- 🔊 24/7 in voice channel
+- ⏯️ Auto-resume system
+- 📌 Music request channel
+- 🎚️ Advanced audio filters
+- 🎛️ DJ system
+- 🖥️ Works on hosts and VPS
+- ⚙️ Built with discord.js v14
+
+---
+
 ## 🚀 Installation | How to Use
 
 ### 1️⃣ Install Node.js
@@ -22,6 +37,7 @@ Clone the repo or download the `.zip`:
 git clone https://github.com/CookyDevJS/advance-discord-music-bot.git
 cd advance-discord-music-bot
 ```
+---
 
 ### 3️⃣ Fill in everything in **`settings/config.js`**
 
@@ -45,18 +61,20 @@ MONGO_URL=
 PREFIX=
 GUILD_ID=
 ```
+---
 
 ### 4️⃣ Now Let's Update Node Version. copy and paste in shell:
 ```bash
 npm i --save-dev node@latest && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH
 ```
+---
 
 ### 5️⃣ Install dependencies:
 
 ```bash
 npm install
 ```
-
+---
 
 ### 6️⃣ Now we need to install to additional packages **.** <br/>
 
@@ -64,24 +82,13 @@ npm install
 2.  `npm install zlib-sync@latest` - for WebSocket data compression and inflation **.** <br/>
 3.  `npm install erlpack@latest` - for significantly faster WebSocket **.** <br/>
 
+---
+
 ### 7️⃣ Start the bot with:
 ```
 node index.js
 ```
-
-## 🎧 Music Bot Features
-
-- 🎵 Easy to use
-- 🎶 Supports YouTube, Spotify, SoundCloud and 700+ websites
-- ⚡ Supports Slash Commands and prefix commands
-- 🔊 24/7 in voice channel
-- ⏯️ Auto-resume system
-- 📌 Music request channel
-- 🎚️ Advanced audio filters
-- 🎛️ DJ system
-- 🖥️ Works on hosts and VPS
-- ⚙️ Built with discord.js v14
-
+---
 
 ## 📜 License
 
