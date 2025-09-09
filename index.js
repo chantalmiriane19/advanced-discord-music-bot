@@ -1,8 +1,8 @@
 require("dotenv").config();
-const JUGNU = require("./handlers/Client");
+const MUSICBOT = require("./handlers/Client");
 const { TOKEN } = require("./settings/config");
 
-const client = new JUGNU();
+const client = new MUSICBOT();
 
 module.exports = client;
 
