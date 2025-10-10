@@ -24,6 +24,19 @@ module.exports = {
   },
   // others
   mongodb: process.env.MONGO_URL || "Your MongoDB URL",
+  // Music API Configurations
+  apiKeys: {
+    spotify: {
+      clientId: process.env.SPOTIFY_CLIENT_ID || "",
+      clientSecret: process.env.SPOTIFY_CLIENT_SECRET || "",
+    },
+    soundcloud: {
+      clientId: process.env.SOUNDCLOUD_CLIENT_ID || "",
+    },
+    deezer: {
+      // Deezer plugin doesn't require API keys
+    },
+  },
   filters: {
     clear: "dynaudnorm=f=200",
     lightbass: "bass=g=8,dynaudnorm=f=200",

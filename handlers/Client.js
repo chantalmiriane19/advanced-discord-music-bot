@@ -51,21 +51,43 @@ class JUGNU extends Client {
     this.scategories = fs.readdirSync("./Commands/Slash");
     this.temp = new Collection();
     this.config = require("../settings/config");
+    
+    // Initialize plugins with API credentials if available
+    const plugins = [];
+    
+    // Spotify Plugin with API credentials
+    const spotifyOptions = {
+      emitEventsAfterFetching: true,
+      parallel: true,
+    };
+    if (this.config.apiKeys.spotify.clientId && this.config.apiKeys.spotify.clientSecret) {
+      spotifyOptions.api = {
+        clientId: this.config.apiKeys.spotify.clientId,
+        clientSecret: this.config.apiKeys.spotify.clientSecret,
+      };
+    }
+    plugins.push(new SpotifyPlugin(spotifyOptions));
+    
+    // SoundCloud Plugin with API credentials
+    const soundcloudOptions = {};
+    if (this.config.apiKeys.soundcloud.clientId) {
+      soundcloudOptions.clientId = this.config.apiKeys.soundcloud.clientId;
+    }
+    plugins.push(new SoundCloudPlugin(soundcloudOptions));
+    
+    // Deezer Plugin (no API credentials required)
+    plugins.push(new DeezerPlugin());
+    
+    // YtDlp Plugin
+    plugins.push(new YtDlpPlugin({
+      update: false,
+    }));
+    
     this.distube = new Distube(this, {
       leaveOnEmpty: false,
       leaveOnFinish: false,
       leaveOnStop: true,
-      plugins: [
-        new SpotifyPlugin({
-          emitEventsAfterFetching: true,
-          parallel: true,
-        }),
-        new SoundCloudPlugin(),
-        new DeezerPlugin(),
-        new YtDlpPlugin({
-          update: false,
-        }),
-      ],
+      plugins: plugins,
       emitNewSongOnly: false,
       savePreviousSongs: true,
       searchSongs: 0,

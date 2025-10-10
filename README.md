@@ -57,16 +57,40 @@ Make sure that Node.js is already installed, or this command will not work.
 
 ### Step 7: Configure the Bot
 
-You may need to set up a configuration file to connect the bot to your Discord server.
+You need to set up environment variables to connect the bot to your Discord server and music APIs.
 
-1. Create a new file named `config.json` in the bot's folder.
-2. Add the following content, replacing `YOUR_DISCORD_TOKEN` and `YOUR_CHANNEL_ID` with the appropriate values:
-   ```json
-   {
-     "token": "YOUR_DISCORD_TOKEN",
-     "channelID": "YOUR_CHANNEL_ID"
-   }
+1. Copy the `.env.example` file and rename it to `.env` in the bot's folder.
+2. Open the `.env` file and fill in the required values:
+   ```env
+   TOKEN=Your_Discord_Bot_Token_Here
+   PREFIX=!
+   MONGO_URL=Your_MongoDB_Connection_URL_Here
    ```
+
+#### Optional: Configure Music API Credentials
+
+For enhanced functionality with Spotify and SoundCloud, you can configure API credentials:
+
+**Spotify API Setup:**
+1. Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
+2. Create a new app
+3. Copy your Client ID and Client Secret
+4. Add them to your `.env` file:
+   ```env
+   SPOTIFY_CLIENT_ID=your_spotify_client_id
+   SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
+   ```
+
+**SoundCloud API Setup:**
+1. Visit [SoundCloud Developers](https://developers.soundcloud.com/)
+2. Register your application
+3. Copy your Client ID
+4. Add it to your `.env` file:
+   ```env
+   SOUNDCLOUD_CLIENT_ID=your_soundcloud_client_id
+   ```
+
+**Note:** The bot will work without API credentials but with limited functionality. API credentials enable better rate limits and access to more features.
 
 ### Step 8: Run the Bot
 
