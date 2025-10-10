@@ -132,4 +132,7 @@ If you want to connect with others using the Advanced Discord Music Bot, join ou
 
 ## 📞 Support
 
-For additional help, please check our [documentation](https://github.com/chantalmiriane19/advanced-discord-music-bot/wiki) or report an issue on the GitHub repository.
+For additional help, please check:
+- [API Setup Guide](./API_SETUP_GUIDE.md) - Detailed instructions for configuring Spotify and SoundCloud APIs
+- [Documentation](https://github.com/chantalmiriane19/advanced-discord-music-bot/wiki)
+- Report an issue on the GitHub repository
